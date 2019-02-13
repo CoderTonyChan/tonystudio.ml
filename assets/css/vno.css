@@ -8109,7 +8109,8 @@ i {
   }
 
   .navigation-wrapper {
-    display: none;
+    /* 
+    display: block;    
     position: fixed;
     top: 0;
     right: 0;
@@ -8117,11 +8118,11 @@ i {
     width: 100%;
     padding: 20px 0;
     background: rgba(51, 51, 51, 0.98);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15); */
   }
 
   .navigation-wrapper.visible {
-    display: block;
+    /* display: block; */
   }
 
   .cover-navigation {
@@ -8138,7 +8139,7 @@ i {
   }
 
   .cover-navigation .navigation li {
-    width: 80%;
+    width: 20%;
     margin-bottom: 0.4em;
   }
 
@@ -8149,6 +8150,10 @@ i {
   .cover-navigation.navigation--social .navigation li {
     display: inline-block;
     width: 20%;
+  }
+  .btn,
+  .navigation__item a {
+    padding: 7px 7px;
   }
 
   .content-wrapper {
